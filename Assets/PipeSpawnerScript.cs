@@ -30,6 +30,7 @@ public class PipeSpawnerScript : MonoBehaviour
     {
         float highPoint = transform.position.y + heightOffset;
         float lowPoint = transform.position.y - heightOffset;
+        Debug.Log(transform.position.x);
         Instantiate(pipeSystem, new Vector3(transform.position.x, Random.Range(lowPoint, highPoint), 0), transform.rotation);
     }
 }

@@ -37,11 +37,10 @@ To run this project locally, follow these steps:
 - **Game Over**: The game ends when the bird collides with a pipe or the ground.
 
 ## Screenshots
-![Gameplay Screenshot](path/to/screenshot1.png)
-![Game Over Screenshot](path/to/screenshot2.png)
+<img src="website_images/FlappyBird.gif" width="900">
 
 ## Technologies Used
-- Unity 2020.3.18f1
+- Unity
 - C#
 - Visual Studio
 
